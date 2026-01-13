@@ -16,7 +16,7 @@ Fast and lightweight Flask backend
 
 Simple and clean project structure
 
-# HOW IT WORKS 
+# How it works
 
 User submits text via a web form
 
@@ -30,11 +30,30 @@ Result is displayed on the web page
 
 # Project Structure
 project-root/
+
 │
 ├── app.py
+
 ├── model/
+
 │   ├── sentiment_model.pkl
+
 │   └── vectorizer.pkl
+
 │
+
 ├── templates/
+
 │   └── index.html
+
+# Clone the Repository
+git clone https://github.com/your-username/sentiment-analysis-flask.git
+cd sentiment-analysis-flask
+
+# Running the Application
+python app.py
+
+
+The application will start at:
+
+http://127.0.0.1:5000/
